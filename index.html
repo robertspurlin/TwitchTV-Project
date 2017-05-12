@@ -4,25 +4,31 @@
   	<meta charset="UTF-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  	<title>Wikipedia Search</title>
+  	<title>TwitchTV Project</title>
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>	
 	<div class="container-fluid" id="background">
-		<div class="container text-center" id="center">
-			<h5><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random article</a></h5>
-			<input id="search" type="search" placeholder="Search...">
-			<h5>Hit enter to search</h5>
-			<span class="results"></span>
+		<div class="col-xs-6 col-xs-offset-3 well" id="skeleton" style="background-color: white;">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<h3>Twitch.TV</h3>
+				</div>
+				<div class="col-xs-12 text-center">
+					<input id="search" type="search" placeholder="Search...">
+				</div>
+			</div>
+			<div id="box"></div>
+			<h5 class="text-center text-muted" id='howto'>Use the search bar to add a user to the list, Click the user's thumbnail to remove</h5>
 		</div>
 	</div>
-	<hr>
+	<hr style="border-color: #a5a5a5;">
 	<footer class="footer text-center">
 		<h6 style="margin-bottom: 0px">Robert Spurlin. All rights reserved.</h6><br />
-		<a href="https://github.com/robertspurlin"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>  
-		<a href="https://www.freecodecamp.com/robertspurlin"><i class="fa fa-free-code-camp fa-2x" aria-hidden="true"></i></a>  
-		<a href="https://www.linkedin.com/in/spurlinrobert/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+		<a href="https://github.com/robertspurlin" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>  
+		<a href="https://www.freecodecamp.com/robertspurlin" target="_blank"><i class="fa fa-free-code-camp fa-2x" aria-hidden="true"></i></a>  
+		<a href="https://www.linkedin.com/in/spurlinrobert/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
 	</footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>

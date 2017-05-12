@@ -1,24 +1,34 @@
 body {
 	font: Arial, Helvetica, sans-serif;
+	background-color: #dbdbdb;
 }
 
-#center a {
-	color: black;
-	padding-bottom: 10px;
+.well {
+	margin-bottom: 0px;
+	border-radius: 0px;
 }
 
-h1 {
-	font: 1.7em;
-	line-height: 110%;
-	color: #000;
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
 }
 
-p {
-	margin: 0 0 20px;
+img {
+	z-index: 10000;
+}
+
+.img-thumbnail {
+	border-radius: 50%;
+}
+
+#skeleton {
+	margin-top: 20px;
 }
 
 input {
 	outline: none;
+	margin-bottom: 20px;
 }
 
 input[type=search] {
@@ -66,16 +76,7 @@ input::-webkit-input-placeholder {
 	color: #999;
 }
 
-h5 {
-	margin: 15px;
+#howto {
+	margin-top: 20px;
 }
 
-.well {
-	background-color: white;
-}
-
-#footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-}
